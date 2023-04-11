@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <!----> <!-- Aba esquerda 
+          <div id="menu">Menu</div> -->
+  
+          <!-- Cabeçalho com botões -->
+          <nav>
+              <a href="index.html">Home</a>
+              <a href="about.html">Sobre mim</a>
+              <a href="contatos.html">Contatos</a>
+          </nav>
+    </header>
+         
+    <main>
+<div class="texto-principal">   <h1>Sobre <strong> mim</strong></h1>
+        <br>
+
+        <img src="/Assest/perfil.jpg" alt="Minha foto">
+      <p>Meu nome é <strong>Kelvin William Silveira</strong> e sou apaixonado(a) por tecnologia. Desde dos 13 anos, venho de Santa Catarina Sao josé.</p>
+      <p>Além disso, gosto de progamar. Em meu tempo livre, gosto de jogar video game e assistir filmes e adoro experimentar coisas novas e sair da minha zona de conforto.</p>
+      <p>Meus amigos e familiares me descrevem como calmo,quieto e engraçado e acredito que essas características me ajudam a enfrentar os desafios da vida.</p>
+      <p>Este site é uma maneira de compartilhar um pouco mais sobre mim e minhas paixões com o mundo. Obrigado por visitá-lo!</p>
+    </main>
+</div>
+
+    <footer id="rodape">
+        <script>window.addEventListener("scroll", function() {
+            var rodape = document.getElementById("rodape");
+            var posicaoRodape = rodape.offsetTop;
+            var alturaRodape = rodape.offsetHeight;
+            var posicaoScroll = window.pageYOffset + window.innerHeight;
+            
+            if (posicaoScroll > posicaoRodape + alturaRodape) {
+              rodape.style.bottom = "0";
+            } else {
+              rodape.style.bottom = "-100px";
+            }
+          });</script>
+        <p>Desenvolvido por Kelvin</p>
+    </footer>
+
+</body>
+</html>
